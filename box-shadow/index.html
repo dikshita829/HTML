@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>box shadow</title>
+    </head>
+    <style>
+        .card{
+            width: 200px;
+            height: 280px;
+            background-color: #fff2e6;
+            box-shadow: 3px 3px 2px #808080;
+            border-radius: 15px;
+            border: 0.5px solid black;
+            padding: 10px;
+        }
+        .card-image-container{
+            background-color: white;
+            margin: auto;
+            padding: 5px;
+            box-shadow: 0px 0px 3px #808080;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+
+        }
+        .card-img{
+            height: 70px;
+            width: 50px;
+            display: block;
+         margin: auto;
+       
+        }
+        .card-title{
+            text-align: center;
+            color: black;
+            font-size: 20px;
+        }
+        .card-prize-parent{
+            position: relative;
+        }
+        .card-price-tag{
+            text-align: center;
+            width: 100px;
+            background-color: yellow;
+            display: block;
+            padding: 2px;
+            font-size: 15px;
+            border-radius: 20px;
+            border: solid 1px black;
+            position: absolute;
+         
+        }
+        .buy-btn-container{
+            text-align: center;
+          position: relative;
+          top: 30px;
+        }
+        .btn-buy-now{
+            background-color: #ffcc00;
+            border: solid black 1px;
+            border-radius: 10px;
+            padding: 5px;
+            font-size: 15px;
+            width: 100px;
+        }
+        .btn-buy-now:hover{
+            background-color: tomato;
+        }
+
+    </style>
+    <body>
+        <div class="card">
+            <div class="card-image-container">
+                <img src="/butrscoch.png" alt="buterscoch/png" class="card-img">
+            </div>
+            <h2 class="card-title">vannila ice cream</h2>
+          <p>vannila soft and creamy ice-cream</p>
+          <div class="card-price-parent">
+          <span class="card-price-tag">only at $100/-</span>
+          <div class="buy-btn-container">
+            <button class="btn-buy-now">buy now</button>
+          </div>
+          </div>
+
+        </div>
+            
+        </div>
+    </body>
+</html>

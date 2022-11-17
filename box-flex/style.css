@@ -1,0 +1,21 @@
+.btn{
+    background-color: tomato;
+}
+.btn:hover{
+    background-color: green;
+    transition: 1s;
+}
+.btn:hover.box{
+    background-color: yellow;
+    transition: 1s;
+
+}
+.box{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    margin-top: 50px;
+}
+.box:hover{
+    background-color: aqua;
+}
