@@ -1,0 +1,39 @@
+body{
+    background-color: wheat;
+    
+}
+.a{
+    background-color:antiquewhite;
+    
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+    
+
+}
+.b{
+    background-color: antiquewhite;
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+    
+
+
+}
+.c{
+    background-color:antiquewhite;
+    height: 500px;
+    width: 200px;
+    display: inline-block;
+
+}
+.img{
+    width: 200px;
+}
+.btn{
+    background-color: yellow;
+    border: 30px;
+    font-size: 30px;
+
+
+}
